@@ -32,7 +32,7 @@ The workflow leverages **XGBoost** and **LightGBM** models with ensembling for m
 
 1. Clone the repository:  
 ```bash
-git clone https://github.com/RyanFarahani1/real-estate-ml-predictions.git
+git clone https://github.com/RayanFarahani/real-estate-ml-predictions.git
 cd real-estate-ml-predictions
 ```
 
@@ -45,9 +45,9 @@ python3 main.py train.csv test.csv
 
 3. Outputs:
 
-main.classification.csv – Predicted property types
+z5432923.classification.csv – Predicted property types
 
-main.regression.csv – Predicted property prices
+z5432923.regression.csv – Predicted property prices
 
 
 
@@ -68,3 +68,7 @@ main.regression.csv – Predicted property prices
 - Skewed features transformed when necessary
 
 - Cyclical transformations capture seasonal patterns
+
+## Report
+
+See `Final Report.pdf` for the full write-up.
